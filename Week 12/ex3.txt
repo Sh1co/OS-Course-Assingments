@@ -1,0 +1,11 @@
+Without O_sync:
+real    0m0.153s
+user    0m0.031s
+sys     0m0.109s
+
+with o_sync:
+real    0m0.132s
+user    0m0.047s
+sys     0m0.078s
+
+describtion: with o_sync the time is slightly less than without it.
